@@ -35,5 +35,35 @@ Tableau (optional)
 
 * Home values (city): The Zillow Home Value Index (ZHVI) dataset provides estimates of home values at the city and county level. You can download this data from the Zillow Research website: https://www.zillow.com/research/data/.
 
+
+# Setting Up the Conda Environment
+To get started with this project, you will need to set up a Conda environment on your machine. The following instructions will guide you through the process:
+
+1. Install Anaconda
+If you haven't already installed Anaconda, go to the official Anaconda website (https://www.anaconda.com/products/individual) and download the latest version for your operating system. Follow the installation instructions to complete the installation.
+
+2. Clone the Project and Cd into Repo
+Clone the project repository to your local machine using git:
+
+```python
+git clone https://github.com/username/repository.git
+cd HouseHunterAI/
+```
+Run the following command to create a new Conda environment for this project:
+```python
+conda env create -f environment.yml
+```
+3. Activate the Conda Environment
+```python
+conda activate investscanus
+```
+
+
+
+
+Note: delete later 
+You can also include links to your code files in your README by using relative file paths. For example, if you have a Python script named "example.py" in the root directory of your project, you can include a link to that file in your README like this:
+[Click here](example.py) to view the Python code.
+
 Authors: This project is authored by Oretha Domfeh 
 
