@@ -46,16 +46,17 @@ If you haven't already installed Anaconda, go to the official Anaconda website (
 Clone the project repository to your local machine using git:
 
 ```python
-git clone https://github.com/username/repository.git
+git clone https://github.com/orethadomfeh/HouseHunterAI.git
 cd HouseHunterAI/
 ```
+
 Run the following command to create a new Conda environment for this project:
 ```python
 conda env create -f environment.yml
 ```
 3. Activate the Conda Environment
 ```python
-conda activate investscanus
+conda activate HouseHunterAI
 ```
 
 
